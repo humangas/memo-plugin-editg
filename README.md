@@ -4,7 +4,8 @@ Edit(Open editor) the line selected by grep.
 
 ## Installation
 ```
-$ go get -du github.com/humangas/memo-plugin-editg
+$ go get -u -d github.com/humangas/memo-plugin-editg
+$ cd $GOPATH/src/github.com/humangas/memo-plugin-editg
 $ make install
 ```
 
