@@ -22,4 +22,5 @@ deps: setup
 
 install: deps
 	GOOS=darwin go build -o editg *.go
+	mkdir -p $(PLUGIN_DIR)
 	mv editg $(PLUGIN_DIR)
